@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('contact', 'WelcomeController@contact');
+Route::get('about', 'AboutusController@about_us');
 
 Route::get('my/{name}', function ($name) {
     echo 'My name is ' . $name;
