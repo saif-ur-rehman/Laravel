@@ -13,7 +13,7 @@ class WelcomeController extends Controller
 
 
 public function contact() {
-  return "Contact US Here";
-  // return view('contact');
+  // return "Contact US Here";
+   return view('contact');
 }
 }
